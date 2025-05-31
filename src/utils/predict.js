@@ -27,7 +27,7 @@ export async function predictWithModel(model, videoElement) {
     let color = "#000000";
     let icon = "⚫ Negro";
 
-    if (className.toLowerCase().includes("bottle") || className.includes("plastic") || className.includes("can") || className.includes("paper")) {
+    if (className.toLowerCase().includes("bottle") || className.includes("can") || className.includes("paper")) {
       detectedClass = "reciclable";
       color = "#ffffff";
       icon = "⚪ Blanco";
